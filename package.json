@@ -1,0 +1,14 @@
+{
+  "name": "front-end-development",
+  "version": "1.0.0",
+  "description": "General Assembly practice teach for front end development",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Evan Wallace",
+  "license": "ISC",
+  "dependencies": {
+    "reveal.js": "^3.5.0"
+  }
+}
