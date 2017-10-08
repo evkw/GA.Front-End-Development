@@ -4,11 +4,14 @@
   "description": "General Assembly practice teach for front end development",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "dev": "lite-server"
   },
   "author": "Evan Wallace",
   "license": "ISC",
   "dependencies": {
     "reveal.js": "^3.5.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
   }
 }
