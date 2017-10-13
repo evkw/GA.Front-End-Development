@@ -17,35 +17,51 @@
 <body>
     <div class="reveal">
         <div class="slides">
-            <section>
+            <section id="title-slides">
                 <h1>Introduction to Programming</h1>
-                <aside class="notes">
-                    Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes
-                    window (hit 's' on your keyboard).
-                </aside>
             </section>
-            <section>
+
+            <section id="what-is-programming-slides">
                 <section>
                     <h2>What is programming?</h2>
-                    <p class="fragment fade-in">Writing human "readable" text that is transformed into a series of commands a computer can understand
-                    </p>
+                    <p class="fragment fade-in">Writing human "readable" text that is transformed into a series of commands a computer can understand</p>
+                    <aside class="notes">
+                        <ul>
+                            <li>Flesh out the "readable" part by describing what different languages are</li>
+                        </ul>
+                    </aside>
                 </section>
                 <section>
-                    <p>Programs can range from a few lines to a few million</p>
-                </section>
-                <section>
-                    <h3>Some examples of programs we use everyday</h3>
+                    <p>What kind of tasks would make good a candidate for a program?</p>
                     <ul>
-                        <li>Apps on our phones</li>
-                        <li>The operating systems on our computers</li>
-                        <li>Text editors and slide creation programs that helped me make this presentation</li>
+                        <li class="fragment fade-in">Repeatable tasks</li>
+                        <li class="fragment fade-in">Manual tasks with risks of human error</li>
+                        <li class="fragment fade-in">Pulling together lots of data from a wide range of sources</li>
                     </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Computers are good at storing and gathering raw data doing processes on it.</li>
+                        </ul>
+                    </aside>
                 </section>
-            </section>
-            <section>
+                <section>
+                    <p>What kind of tasks would not make a good candidate for a program?</p>
+                    <ul>
+                        <li class="fragment fade-in">Making decisions</li>
+                        <li class="fragment fade-in">Understanding concepts</li>
+                        <li class="fragment fade-in">Doing anything with images!!</li>
+                        <li class="fragment fade-in">All of these are changing as innovations in machine learning are being made</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Humans are better then computers at experimental learning, making decisions, seeing connections
+                                between data</li>
+                            <li>Looking at a picture of a dog and knowing it is a dog!</li>
+                        </ul>
+                    </aside>
+                </section>
                 <section>
                     <p>Computers are very literal</p>
-                    <p class="fragment fade-in">They will do exactly what you tell them, even if it results in...</p>
                 </section>
                 <section>
                     <img src="assets/blue-screen.png" alt="blue screen">
@@ -53,11 +69,37 @@
                 <section>
                     <p> We can help prevent angry computers by taking a writing step by step instructions on what we intend our
                         programs to do</p>
-                    <p class="fragment fade-in">This planning technique is called pseudocode</p>
-                    <p class="fragment fade-in">It can help us quickly find any faults in our program's logic before the first line of code is written</p>
                 </section>
             </section>
+
+            <section id="understanding-psuedocode">
+                <section>
+                    <h2>Understanding Psuedocode</h2>
+                    <ul>
+                        <li>Planning technique to write out a programs logic</li>
+                        <li>Language agnostic</li>
+                        <li>Great tool for collaborating</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Psuedocode Techniques</h2>
+                    <p>A simple list</p>
+                    <ol class="fragment fade-in">
+                        <li>Boil water in kettle</li>
+                        <li>Put tea bag in cup</li>
+                        <li>Wait for water to boil</li>
+                        <li>Add boiled water to cup</li>
+                        <li>Add sugar</li>
+                        <li>Add milk</li>
+                        <li>Serve</li>
+                    </ol>
+                </section>
+                <section>
+                        <h2>Psuedocode Techniques</h2>
+                    <p>Flow chart</p>
+                </section>
             </section>
+
         </div>
     </div>
     <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
