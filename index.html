@@ -4,6 +4,14 @@
     <title>Front End Development</title>
     <link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
     <link rel="stylesheet" href="node_modules/reveal.js/css/theme/league.css">
+
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'node_modules/reveal.js/css/print/pdf.css' : 'node_modules/reveal.js/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
 </head>
 
 <body>
@@ -12,8 +20,9 @@
             <section>
                 <h1>Introduction to Programming</h1>
                 <aside class="notes">
-                        Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-                    </aside>
+                    Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes
+                    window (hit 's' on your keyboard).
+                </aside>
             </section>
             <section>
                 <section>
@@ -42,7 +51,8 @@
                     <img src="assets/blue-screen.png" alt="blue screen">
                 </section>
                 <section>
-                    <p> We can help prevent angry computers by taking a writing step by step instructions on what we intend our programs to do</p>
+                    <p> We can help prevent angry computers by taking a writing step by step instructions on what we intend our
+                        programs to do</p>
                     <p class="fragment fade-in">This planning technique is called pseudocode</p>
                     <p class="fragment fade-in">It can help us quickly find any faults in our program's logic before the first line of code is written</p>
                 </section>
@@ -50,9 +60,14 @@
             </section>
         </div>
     </div>
+    <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
     <script src="node_modules/reveal.js/js/reveal.js"></script>
     <script>
-        Reveal.initialize();
+        Reveal.initialize({
+            dependencies: [
+                { src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true }
+            ]
+        });
     </script>
 </body>
 
