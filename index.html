@@ -4,6 +4,7 @@
     <title>Front End Development</title>
     <link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
     <link rel="stylesheet" href="node_modules/reveal.js/css/theme/league.css">
+    <link rel="stylesheet" href="styles.css">
 
     <script>
         var link = document.createElement('link');
@@ -24,7 +25,7 @@
             <section id="what-is-programming-slides">
                 <section>
                     <h2>What is programming?</h2>
-                    <p class="fragment fade-in">Writing human "readable" text that is transformed into a series of commands a computer can understand</p>
+                    <blockquote class="fragment fade-in">Writing human "readable" text that is transformed into a series of commands a computer can understand</blockquote>
                     <aside class="notes">
                         <ul>
                             <li>Flesh out the "readable" part by describing what different languages are</li>
@@ -32,11 +33,24 @@
                     </aside>
                 </section>
                 <section>
+                    <h2>Who is this?</h2>
+                    <img src="assets/queen-elizabeth.jpg" alt="Queen" />
+                </section>
+                <section>
+                    <h2>What is the significance of this?</h2>
+                    <blockquote>"One small step for man..."</blockquote>
+                </section>
+
+                <section>
+                    <h2>What is the 200th digit of PI ?</h2>
+                    <img class="fragment fade-in" src="assets/pi-searcher.GIF" alt="PI Search" />
+                </section>
+                <section>
                     <p>What kind of tasks would make good a candidate for a program?</p>
-                    <ul>
-                        <li class="fragment fade-in">Repeatable tasks</li>
-                        <li class="fragment fade-in">Manual tasks with risks of human error</li>
-                        <li class="fragment fade-in">Pulling together lots of data from a wide range of sources</li>
+                    <ul class="fragment fade-in">
+                        <li>Repeatable tasks</li>
+                        <li>Manual tasks with risks of human error</li>
+                        <li>Pulling together lots of data from a wide range of sources</li>
                     </ul>
                     <aside class="notes">
                         <ul>
@@ -46,11 +60,11 @@
                 </section>
                 <section>
                     <p>What kind of tasks would not make a good candidate for a program?</p>
-                    <ul>
-                        <li class="fragment fade-in">Making decisions</li>
-                        <li class="fragment fade-in">Understanding concepts</li>
-                        <li class="fragment fade-in">Doing anything with images!!</li>
-                        <li class="fragment fade-in">All of these are changing as innovations in machine learning are being made</li>
+                    <ul class="fragment fade-in">
+                        <li>Making decisions</li>
+                        <li>Understanding concepts</li>
+                        <li>Doing anything with images!!</li>
+                        <li>All of these are changing as innovations in machine learning are being made</li>
                     </ul>
                     <aside class="notes">
                         <ul>
@@ -61,18 +75,22 @@
                     </aside>
                 </section>
                 <section>
+                    <h2>What is Programming? (Updated)</h2>
+                    <blockquote class="fragment fade-in">"Humans and computers using their strengths together to accomplish tasks"</blockquote>
+                </section>
+            </section>
+
+            <section id="understanding-psuedocode">
+                <section>
                     <p>Computers are very literal</p>
                 </section>
                 <section>
-                    <img src="assets/blue-screen.png" alt="blue screen">
+                    <img src="assets/blue-screen.jpg" alt="blue screen">
                 </section>
                 <section>
                     <p> We can help prevent angry computers by taking a writing step by step instructions on what we intend our
                         programs to do</p>
                 </section>
-            </section>
-
-            <section id="understanding-psuedocode">
                 <section>
                     <h2>Understanding Psuedocode</h2>
                     <ul>
@@ -95,11 +113,51 @@
                     </ol>
                 </section>
                 <section>
-                        <h2>Psuedocode Techniques</h2>
                     <p>Flow chart</p>
+                    <img src="assets/flowchart.png" alt="flowchart" />
                 </section>
             </section>
-
+            <section>
+                <h2>Variables</h2>
+                <p>A value that is stored and accessible from within an application</p>
+            </section>
+            <section>
+                <h3>Variable Types</h3>
+                <table class="variable-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Example</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>String</td>
+                            <td>"Hey there!"</td>
+                            <td>A series of characters surrounded by quotation marks</td>
+                        </tr>
+                        <tr>
+                            <td>Number</td>
+                            <td>26</td>
+                            <td>Any number between
+                                <code>-2<sup>53</sup></code> and
+                                <code>2<sup>53</sup></code> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Boolean</td>
+                            <td>True/False</td>
+                            <td>A computer science concept of a value that either be true or false</td>
+                        </tr>
+                        <tr>
+                            <td>Array</td>
+                            <td id="array-example">["Hello", 2, true]</td>
+                            <td>An ordered collection of data, can either be a primitive or an object</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
         </div>
     </div>
     <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
