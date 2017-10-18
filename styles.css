@@ -13,3 +13,7 @@
 .variable-table > tbody > tr > td {
     padding: 1.0em 0.5em 1.0em 0.5em;
 }
+
+#variable-example-list > li > span {
+    font-size: 26px;
+}
