@@ -15,5 +15,5 @@ npm install
 - Tick option 'Background graphics' to include the background theme
 
 ### Extra information
-- Power point slides powered by [reveal.js](https://github.com/hakimel/reveal.js)
-- GIF created by [Snag It](https://www.techsmith.com/screen-capture.html)
+- Slides created using [reveal.js](https://github.com/hakimel/reveal.js)
+- GIF created using [Snag It](https://www.techsmith.com/screen-capture.html)
