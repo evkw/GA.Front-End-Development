@@ -4,10 +4,16 @@
 npm install
 
 ### Start developing
-npm run dev
+- npm run dev
+- Should open a browser and serve slides on port 3000
+
+### To Print Slides
+- This assumes chrome is being used
+- Navigate to http://localhost:3000/?print-pdf
+- Press Ctrl + P
+- Set 'destination' to PDF
+- Tick option 'Background graphics' to include the background theme
 
 ### Extra information
 - Power point slides powered by [reveal.js](https://github.com/hakimel/reveal.js)
-
-## License
-Code released under the ISC license.
+- GIF created by [Snag It](https://www.techsmith.com/screen-capture.html)
